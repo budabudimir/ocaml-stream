@@ -12,6 +12,5 @@ let rec sieve s =
 
 
 let prims = sieve (from 2);;
-
-List.iter (printf "%d\n") (take 10 prims)
+List.iter (printf "%d\n") (take 1000 prims)
 
